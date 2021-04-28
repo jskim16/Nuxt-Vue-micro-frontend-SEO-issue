@@ -23,8 +23,7 @@ nuxt로 프로젝트를 구동시켰을 때 spa모드로 구동했을 경우 페
 qiankun과 nuxt를 기반으로 한 마이크로 프론트엔드의 코드를 살펴보니 spa모드로 적용되어 있는 것을 확인하였다.
 이를 universal 모드로 변경했을 때 동작을 확인하였다.
 결과로는 window 오류가 발생하였고 node_module에 있는 파일에서 정보를 받지 못하는 에러가 발생하였다.
-![오류](https://github.com/jskim16/Nuxt-micro-frontend/blob/main/img/window-is-not-defined.PNG)
-<center><img src="https://github.com/jskim16/Nuxt-micro-frontend/blob/main/img/window-is-not-defined.PNG" width="80%"></center>
+<img src="https://github.com/jskim16/Nuxt-micro-frontend/blob/main/img/window-is-not-defined.PNG" width="80%" alt="오류">
 ## 정리
 이 문제에 대한 똑같은 이슈제기가 있어 확인해보았다.
 그에 대한 답변이 올라왔는데 마이크로 프론트엔드 구조가 qiankun기반을 하기 때문에 universal 모드는 사용이 불가능하다는 내용이었다.
