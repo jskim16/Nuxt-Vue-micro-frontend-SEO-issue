@@ -2,9 +2,7 @@
 
 ## nuxt에서의 SEO 적용 방법
 nuxt에서 SPA를 사용하는 경우 지원하는 모드 중에 CSR과 SSR을 지원하는 `universe` 모드가 있다. SEO를 하기 위해서는 CSR이 필요하기 때문에 universal 모드 지원하는 방향으로 작업을 진행했다.<br>
-https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-mode<br>
-[Google](https://google.com, "google link")
-
+[Document](https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-mode)
 
 ## Nuxt를 이용한 마이크로 프론트엔드 환경 구현
 Nuxt를 이용한 마이크로 프론트엔드는 qiankun을 기반으로 구현된 것을 분석했다. Nuxt에서 SSR 사용 가능 여부를 확인하기 위해 qiankun기반의 데모를 사용하였다.
