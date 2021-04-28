@@ -17,7 +17,7 @@ nuxt로 프로젝트를 구동시켰을 때 spa모드로 구동했을 경우 페
 
 
 ## Nuxt를 이용한 마이크로 프론트엔드 환경 구현
-이전 작업에서 vue를 이용한 마이크로 프론트엔드 구현은 [single-spa](https://github.com/single-spa/single-spa)를 이용해 구현하였다. Nuxt를 이용한 마이크로 프론트엔드는 single-spa를 기반으로 하는 [qiankun]()을 기반으로 구현된 것을 분석했다. Nuxt에서 SSR 사용 가능 여부를 확인하기 위해 qiankun기반으로 구현된 [데모](https://github.com/FEMessage/nuxt-micro-frontend)를 사용하였다.
+이전 작업에서 vue를 이용한 마이크로 프론트엔드 구현은 [single-spa](https://github.com/single-spa/single-spa)를 이용해 구현하였다. Nuxt를 이용한 마이크로 프론트엔드는 single-spa를 기반으로 하는 [qiankun](https://qiankun.umijs.org/guide)을 기반으로 구현된 것을 분석했다. Nuxt에서 SSR 사용 가능 여부를 확인하기 위해 qiankun기반으로 구현된 [데모](https://github.com/FEMessage/nuxt-micro-frontend)를 사용하였다.
 
 ## nuxt 기반으로 한 마이크로 프로젝트에서의 SEO 적용
 qiankun과 nuxt를 기반으로 한 마이크로 프론트엔드의 코드를 살펴보니 spa모드로 적용되어 있는 것을 확인하였다.
