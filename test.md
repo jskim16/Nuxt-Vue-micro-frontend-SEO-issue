@@ -26,7 +26,7 @@ qiankun과 nuxt를 기반으로 한 마이크로 프론트엔드의 코드를 �
 
 결론적으로는 이 오류는 해결할 수 없다는 [답변](https://github.com/umijs/qiankun/issues/772)이 있었다. 그렇다면 universal 모드를 사용했을 때 SSR이 적용되지 않았나 하면 그건 아니다. spa모드로 프로젝트가 동작할 때 페이지 소스와 universal모드로 프로젝트를 동작할 때를 비교하면 알 수 있다.
 
-![spa모드]()
+![spa모드](https://github.com/jskim16/Nuxt-micro-frontend/blob/main/img/spa-mode.PNG)
 
 spa모드일 땐 페이지가 정상 작동을 하지만 소스를 보면 CSR로 구동하기 때문에 소스가 비어있는 것을 확인할 수 있다.
 
