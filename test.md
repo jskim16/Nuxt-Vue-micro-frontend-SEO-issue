@@ -1,7 +1,7 @@
 # Vue환경에서 Nuxt를 이용한 마이크로 프론트엔드에서의 SEO 작업
 
 ## nuxt에서의 SEO 적용 방법
-nuxt에서 지원하는 모드 중에 universe 모드가 있다
+nuxt에서 지원하는 모드 중에 universe 모드가 있다.<br>
 universe 모드는 CSR+SSR을 지원하는 모드이고 또 다른 모드는 CSR만 지원하는 spa모드가 있다.
 SEO를 하기 위해서는 CSR이 필요하기 때문에 universal 모드 지원하는 방향으로 작업을 진행했다.
 우선 universal 모드의 동작을 확인하고 사용법을 익히기 위해 기본적인 nuxt 프로젝트를 만들고 앱 내에서 모드별로 동작을 시켜보았다.
