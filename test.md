@@ -30,7 +30,7 @@ qiankun과 nuxt를 기반으로 한 마이크로 프론트엔드의 코드를 �
 
 spa모드일 땐 페이지가 정상 작동을 하지만 소스를 보면 CSR로 구동하기 때문에 소스가 비어있는 것을 확인할 수 있다.
 
-![universal모드]()
+![universal모드](https://github.com/jskim16/Nuxt-micro-frontend/blob/main/img/universal-mode.PNG)
 
 반면 universal모드로 동작했을 때는 페이지는 오류가 생기지만 소스를 보면 SSR로 구현이 되어 소스는 작성되어 있는 것을 확인할 수 있다.
 
