@@ -4,6 +4,7 @@
 nuxt에서 지원하는 모드 중에 universe 모드가 있다
 universe 모드는 CSR+SSR을 지원하는 모드이고 또 다른 모드는 CSR만 지원하는 spa모드가 있다.
 SEO를 하기 위해서는 CSR이 필요하기 때문에 universal 모드 지원하는 방향으로 작업을 진행했다.
+
 nuxt로 spa프로젝트를 구동시켰을 때 spa모드로 구동했을 경우 페이지에 관한 렌더링이 소스 코드에 없었지만 universe모드로 구동했을 때 페이지 렌더링이 소스 코드에 올라온 것을 확인하였다.
 ## nuxt 기반으로 한 마이크로 프로젝트에서의 SEO 적용
 micro frontend는 기본적으로 spa들에 universal 모드를 적용했을 때의 소스코드 내용을 확인하기 위해 nuxt 기반으로 만들어진 데모를 다운받아서 구동시켰다
