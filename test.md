@@ -4,14 +4,14 @@
 [관련문서](https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-mode)<br>
 nuxt에서 SPA를 사용하는 경우 지원하는 모드 중에 CSR과 SSR을 지원하는 `universe` 모드가 있다. SEO를 하기 위해서는 CSR이 필요하기 때문에 `universal` 모드 지원하는 방향으로 작업을 진행했다. 우선 universal 모드의 동작을 확인하고 사용법을 익히기 위해 기본적인 nuxt 프로젝트를 만들고 앱 내에서 모드별로 동작을 시켜보았다. 
 
-``vue.js
+```vue.js
 //nuxt.config.js
 export default {
   mode: 'universal',
   ssr: true,
   ...
 }
-  ``
+  ```
 
 nuxt로 프로젝트를 구동시켰을 때 spa모드로 구동했을 경우 페이지에 관한 렌더링이 소스 코드에 없었지만 universe모드로 구동했을 때 페이지 렌더링이 소스 코드에 올라온 것을 확인하였다.
 
