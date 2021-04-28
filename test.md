@@ -1,4 +1,4 @@
-# Vue환경에서 Nuxt를 이용한 마이크로 프론트엔드에서의 SEO 작업
+# Nuxt와 vue환경의 마이크로 프론트엔드에서의 SEO 작업
 
 ## nuxt에서의 SEO 적용 방법
 nuxt에서 지원하는 모드 중에 universe 모드가 있다.<br>
